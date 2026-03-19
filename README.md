@@ -19,22 +19,21 @@ Built as a simple, privacy-safe hobby project with clean structure and minimal d
 ---
 
 ## 🏗️ Project Structure
-
+```bash
 carousell-monitor/
 │
 ├── carousell_bot.py
 ├── requirements.txt
 ├── README.md
-├── config.example.json
 ├── .gitignore
 │
-└── data/ # (not tracked by git)
-├── config.json
-├── carousell_links.db
-├── scraper.log
-├── authorized_users.txt
-└── pending_users.txt
-
+└─── data/ # (not tracked by git)
+├─── config.json
+├─── carousell_links.db
+├─── scraper.log
+├─── authorized_users.txt
+└─── pending_users.txt
+```
 ---
 
 ## ⚙️ Setup
@@ -150,8 +149,13 @@ Designed for small personal use
 ---
 ## 🛠️ Configuration Options
 Key:                            Description
+
 check_interval_seconds:         Time between scans
+
 limit_per_search:               Max listings per search
+
 telegram_max_retries:           Retry attempts for Telegram
+
 telegram_retry_delay_seconds:   Delay between retries
+
 searches:                       List of monitored queries
