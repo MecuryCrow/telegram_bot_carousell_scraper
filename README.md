@@ -84,27 +84,28 @@ Copy your bot token
 Send /start to your bot
 
 👉 Your chat ID will be automatically logged in:
-
+```
 data/pending_users.txt
-
+```
 ### 3. Approve users
 
 Move users from: 
-
+```
 data/pending_users.txt
-
+```
 to: 
-
+```
 data/authorized_users.txt
-
+```
 Format:
-
+```
 123456789, username
-
+```
 ---
 ## 💬 Commands
 ### Command	Description
 /start	Enable notifications
+
 /stop	Disable notifications
 
 ---
