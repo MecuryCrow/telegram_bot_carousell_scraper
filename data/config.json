@@ -1,0 +1,20 @@
+{
+  "telegram_bot_token": "PASTE_YOUR_BOT_TOKEN_HERE",
+
+  "check_interval_seconds": 60,
+  "limit_per_search": 20,
+
+  "telegram_max_retries": 3,
+  "telegram_retry_delay_seconds": 3,
+
+  "searches": [
+    {
+      "name": "example: PSA 10",
+      "url": "https://www.carousell.sg/search/?sort_by=3&PSA10"  //use sort_by=3 to filter by recent
+    },
+    {
+      "name": "example: pokemon cards",
+      "url": "https://www.carousell.sg/search/pokemon%20cards"
+    }
+  ]
+}
