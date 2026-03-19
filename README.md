@@ -25,7 +25,6 @@ carousell-monitor/
 ├── carousell_bot.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
 │
 └─── data/ # (not tracked by git)
 ├─── config.json
@@ -129,8 +128,6 @@ Telegram commands are polled each cycle
 ## 🔒 Security & Privacy
 
 Bot token stored in data/config.json (not tracked)
-
-.gitignore excludes all sensitive files
 
 Chat IDs are not exposed in code
 
